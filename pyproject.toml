@@ -3,6 +3,10 @@ name = "dbaml-pipelines"
 version = "0.1.0"
 description = "Template for ML projects using MLflow and Azure ML pipelines"
 authors = ["jralfonsog <jralfonsog@gmail.com>"]
+packages = [
+    {include = "amlpipelines"},
+    {include = "source"},
+]
 
 [tool.poetry.dependencies]
 python = ">=3.7,<3.9"
